@@ -1,3 +1,3 @@
 export const API = {
-    "API_URL" : "http://api.sande.id/api/",
+    "API_URL" : "https://api.sande.id/api/",
 }
