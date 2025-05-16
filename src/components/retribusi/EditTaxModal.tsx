@@ -17,7 +17,7 @@ const EditTaxModal = (props: ICustomModal) => {
 
     useEffect(() => {
         if (props.ret_stt !== undefined) {
-            setEnabled(props.ret_stt === 1);
+            setEnabled(props.ret_stt == 1 ? true : false);
         }
     }, [props.ret_stt]);
 
